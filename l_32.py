@@ -6,10 +6,10 @@
 from leson_32 import examination,mistake
 from l32 import numbers1,numbers2
 
-a = numbers1()
 try:
-    b = numbers2()
+    a = numbers1()
     try:
+        b = numbers2()
         item = input("Выберите знак + , - , / , *: ")
 
         if item == "+":
@@ -28,6 +28,6 @@ try:
             print("Ошибка")
 
     except ValueError:
-        print("Ошибка")
+        print("Вы ввели буквы а не цыфры")
 except ValueError:
-    print("Ошибка")
+    print("Вы ввели буквы а не цыфры")
