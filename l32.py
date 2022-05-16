@@ -1,3 +1,4 @@
+
 def numbers1():
     number1 = int(input("Введите число 1: "))
     return number1
